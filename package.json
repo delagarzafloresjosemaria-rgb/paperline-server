@@ -1,0 +1,21 @@
+{
+  "name": "paperline-server",
+  "version": "1.0.0",
+  "description": "Paperline relay server - relays messages from the phone PWA to the authorized home Windows app over an outbound WebSocket connection.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
